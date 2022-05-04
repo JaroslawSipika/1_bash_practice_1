@@ -1,0 +1,75 @@
+
+#!/bin/bash
+
+
+echo "Podaj numer miesiaca"
+
+read numer;
+
+case $numer in
+
+1) 
+echo "Styczen"
+;;
+2)
+echo "Luty"
+;;
+3)
+echo "Marzec"
+;;
+4)
+echo "Kwiecen"
+;;
+5)
+echo "Maj"
+;;
+6)
+echo "Czerwiec"
+;;
+7)
+echo "Lipiec"
+;;
+8)
+echo "Sierpien"
+;;
+9)
+echo "Wrzesien"
+;;
+10)
+echo "Pazdziernik"
+;;
+11)
+echo "Listopad"
+;;
+12)
+echo "Grudzien"
+;;
+*)
+echo "Nie ma takiego miesiaca"
+
+esac
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

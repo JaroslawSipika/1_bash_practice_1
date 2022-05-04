@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "wyswietlanie informacji o pliku"
+echo "a) nazwa pliku"
+echo "b) uprawnienia do pliku"
+echo "c) typ pliku"
+
+stat --printf "%n\n%a\n%F\n" POLI

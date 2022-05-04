@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "Wyświetl 25 pierwszych linijek"
+head -25 historia
+
+echo "Wyświetl 2 ostatnie linijki"
+tail -2 historia

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+echo "Wyszukaj wszystkie pliki zaczynające się na text"
+find text*

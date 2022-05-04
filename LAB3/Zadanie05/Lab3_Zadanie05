@@ -1,0 +1,20 @@
+#!/bin/bash
+
+echo "KALKULATOR"
+
+echo "Wpisz pierwszą liczbę"
+read a
+echo "Wpisz drugą liczbę"
+read b
+
+let wynik=a+b
+echo "Suma: $wynik"
+
+let wynik=a-b
+echo "Różnica: $wynik"
+
+let wynik=a/b
+echo "Iloraz: $wynik"
+
+let wynik=a*b
+echo "Iloczyn: $wynik"

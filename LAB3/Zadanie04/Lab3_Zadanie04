@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "przywitanie"
+
+imie=Jarek
+X=26
+Y=2
+
+echo "Cześć mam na imię $imie"
+echo "Mam $X lat"
+echo "Studiuje na Politechnice Krakowskiej na roku $Y"

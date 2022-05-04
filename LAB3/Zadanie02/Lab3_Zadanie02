@@ -1,0 +1,25 @@
+#!/bin/bash
+
+echo "wypisanie pierwotnego tekstu"
+
+cat PK
+
+echo ""
+
+echo "a) wypisanie tekstu drukowanymi literami"
+
+tr "[:lower:]" "[:upper:]" < PK
+
+tr a-z A-z < PK
+
+echo ""
+
+echo "b) zamiana i na B"
+
+tr i B < PK
+
+echo ""
+
+echo "c) usuniecie czesci tekstu"
+
+echo "studiuje na politechnice krakowskiej"| cut -c13- 

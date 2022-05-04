@@ -1,0 +1,18 @@
+
+#!/bin/bash
+
+
+echo "Podaj godzine"
+
+read pelnagodzina
+
+godzina=$(echo "$pelnagodzina" | cut -d ":" -f 1)
+minuta=$(echo "$pelnagodzina" | cut -d ":" -f 2)
+
+if [ $godzina -ge "20" -a $godzina -le "24" -a $minuta -le "60" -a $minuta -ge "0" ]; then
+	echo "Dobry wieczór"
+elif [ $godzina -ge "0" -a $godzina -lt "20" -a $minuta -le "60" -a $minuta -ge "0" ]; then
+	echo "Dzień dobry"
+else	
+	echo "Błędna godzina"
+fi
